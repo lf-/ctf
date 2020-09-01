@@ -35,49 +35,12 @@ static __inline long syscall3(long n, long a1, long a2, long a3)
     return ret;
 }
 
-static inline size_t strlen_(char *s) {
-    size_t i;
-    for (i = 0; s[i] != '\0'; ++i) {}
-    return i;
-}
-
-
-static inline char nchar(char n) {
-    return '0' + n;
-}
-
-static inline void reverse(char *s) {
-    size_t len = strlen_(s);
-    for (size_t i = 0; i < len / 2; ++i) {
-        char tmp = s[len - i - 1];
-        s[len - i - 1] = s[i];
-        s[i] = tmp;
+static void itoa_badly(int i, char *a) {
+    while (i > 0) {
+        *a = (i % 10) + '0';
+        i /= 10;
+        --a;
     }
-}
-
-static inline void pidtostring(int pid, char *buf) {
-    char *s_ = buf;
-    while (pid != 0) {
-        *s_ = nchar(pid % 10);
-        pid /= 10;
-        s_++;
-    }
-    *s_ = '\0';
-    reverse(buf);
-}
-
-// lol I probably don't have to reimplement all of this but idk which of it is
-// in stdlib/glibc
-size_t strcpy_(char *dest, char *src) {
-    size_t ctr = 0;
-    while (*src != '\0') {
-        *dest = *src;
-        src++;
-        dest++;
-        ctr++;
-    }
-    *dest = '\0';
-    return ctr;
 }
 
 __attribute__((section(".text.prologue")))
@@ -88,12 +51,8 @@ void _start () {
     __asm__ __volatile__ (
         "mov %0, dword ptr [rbp - 0x4]\n"
         : "=r"(pid) ::);
-    char pathbuf[64] = "/proc/";
-    char *end = pathbuf + sizeof ("/proc/") - 1;
-    char pid_[16];
-    pidtostring(pid, pid_);
-    end += strcpy_(end, pid_);
-    strcpy_(end, "/mem");
+    char pathbuf[64] = "/proc////////////mem";
+    itoa_badly(pid, &pathbuf[15]);
 
     int fd = syscall2(SYS_open, (uint64_t)(void *)pathbuf, O_RDWR);
 
