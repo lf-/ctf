@@ -5,7 +5,7 @@ chal: LDLIBS=-lseccomp
 chal: CFLAGS=-ggdb
 chal: chal.o
 
-shellcode.bin: CFLAGS=-O2 -Wall -static -nostdlib -fno-asynchronous-unwind-tables -fpic -masm=intel
+shellcode.bin: CFLAGS=-Os -Wall -static -nostdlib -fno-asynchronous-unwind-tables -fpic -masm=intel
 shellcode.bin: shellcode.o shellcode.ld
 shellcode.bin:
 	gcc -static -nostdlib -fno-asynchronous-unwind-tables -fpic shellcode.o -Wl,-Tshellcode.ld,--build-id=none -o shellcode

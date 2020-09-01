@@ -35,18 +35,18 @@ static __inline long syscall3(long n, long a1, long a2, long a3)
     return ret;
 }
 
-size_t strlen_(char *s) {
+static inline size_t strlen_(char *s) {
     size_t i;
     for (i = 0; s[i] != '\0'; ++i) {}
     return i;
 }
 
 
-char nchar(char n) {
+static inline char nchar(char n) {
     return '0' + n;
 }
 
-void reverse(char *s) {
+static inline void reverse(char *s) {
     size_t len = strlen_(s);
     for (size_t i = 0; i < len / 2; ++i) {
         char tmp = s[len - i - 1];
@@ -55,7 +55,7 @@ void reverse(char *s) {
     }
 }
 
-void pidtostring(int pid, char *buf) {
+static inline void pidtostring(int pid, char *buf) {
     char *s_ = buf;
     while (pid != 0) {
         *s_ = nchar(pid % 10);
