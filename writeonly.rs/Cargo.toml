@@ -1,0 +1,12 @@
+[package]
+name = "shellcode"
+edition = "2018"
+version = "0.0.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = "z"
+lto = true
