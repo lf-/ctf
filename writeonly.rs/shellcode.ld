@@ -18,5 +18,6 @@ SECTIONS
 	{
 		*(.interp)
 		*(.comment)
+		*(.debug_frame)
 	}
 }
