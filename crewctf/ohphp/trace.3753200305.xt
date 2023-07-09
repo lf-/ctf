@@ -1,0 +1,637 @@
+TRACE START [2023-07-09 03:54:22.823829]
+    0.0046     705136   -> {main}() /home/jade/dev/ctf/crewctf/ohphp/chall.php:0
+    0.0046     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0046     705280      >=> FALSE
+    0.0046     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0046     705200      >=> 0
+    0.0047     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705280      >=> FALSE
+    0.0047     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705200      >=> 0
+    0.0047     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705344      >=> FALSE
+    0.0047     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705264      >=> 0
+    0.0047     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705280      >=> FALSE
+    0.0047     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705200      >=> 0
+    0.0047     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0047     705344      >=> FALSE
+    0.0047     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705264      >=> 0
+    0.0048     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705280      >=> FALSE
+    0.0048     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705200      >=> 0
+    0.0048     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705344      >=> FALSE
+    0.0048     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705264      >=> 0
+    0.0048     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705344      >=> FALSE
+    0.0048     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705264      >=> 0
+    0.0048     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0048     705360      >=> FALSE
+    0.0048     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705280      >=> 0
+    0.0049     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705360      >=> FALSE
+    0.0049     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705280      >=> 0
+    0.0049     705136     -> get_included_files() /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705424      >=> [0 => '/home/jade/dev/ctf/crewctf/ohphp/chall.php']
+    0.0049     705424     -> count($value = [0 => '/home/jade/dev/ctf/crewctf/ohphp/chall.php']) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705488      >=> 1
+    0.0049     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705280      >=> FALSE
+    0.0049     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0049     705200      >=> 0
+    0.0049     705424     -> in_array($needle = 1, $haystack = [0 => '1']) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705568      >=> TRUE
+    0.0050     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705280      >=> FALSE
+    0.0050     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705200      >=> 0
+    0.0050     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705280      >=> FALSE
+    0.0050     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705200      >=> 0
+    0.0050     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705344      >=> FALSE
+    0.0050     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705264      >=> 0
+    0.0050     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0050     705360      >=> FALSE
+    0.0051     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705280      >=> 0
+    0.0051     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705360      >=> FALSE
+    0.0051     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705280      >=> 0
+    0.0051     705136     -> php_sapi_name() /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705200      >=> 'cli'
+    0.0051     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705344      >=> FALSE
+    0.0051     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705264      >=> 0
+    0.0051     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705408      >=> FALSE
+    0.0051     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0051     705328      >=> 0
+    0.0052     705264     -> strcmp($string1 = 'cli', $string2 = 'cli') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705392      >=> 0
+    0.0052     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705280      >=> FALSE
+    0.0052     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705200      >=> 0
+    0.0052     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705344      >=> FALSE
+    0.0052     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705264      >=> 0
+    0.0052     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705280      >=> FALSE
+    0.0052     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0052     705200      >=> 0
+    0.0052     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705344      >=> FALSE
+    0.0053     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705264      >=> 0
+    0.0053     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705344      >=> FALSE
+    0.0053     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705264      >=> 0
+    0.0053     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705344      >=> FALSE
+    0.0053     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705264      >=> 0
+    0.0053     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0053     705280      >=> FALSE
+    0.0053     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705200      >=> 0
+    0.0054     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705344      >=> FALSE
+    0.0054     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705264      >=> 0
+    0.0054     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705360      >=> FALSE
+    0.0054     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705280      >=> 0
+    0.0054     705136     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705280      >=> FALSE
+    0.0054     705136     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705200      >=> 0
+    0.0054     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0054     705344      >=> FALSE
+    0.0054     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705264      >=> 0
+    0.0055     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705344      >=> FALSE
+    0.0055     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705264      >=> 0
+    0.0055     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705344      >=> FALSE
+    0.0055     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705264      >=> 0
+    0.0055     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705344      >=> FALSE
+    0.0055     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705264      >=> 0
+    0.0055     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0055     705360      >=> FALSE
+    0.0055     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705280      >=> 0
+    0.0056     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705360      >=> FALSE
+    0.0056     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705280      >=> 0
+    0.0056     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705360      >=> FALSE
+    0.0056     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705280      >=> 0
+    0.0056     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705360      >=> FALSE
+    0.0056     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705280      >=> 0
+    0.0056     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0056     705360      >=> FALSE
+    0.0056     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705280      >=> 0
+    0.0057     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705360      >=> FALSE
+    0.0057     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705280      >=> 0
+    0.0057     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705360      >=> FALSE
+    0.0057     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705280      >=> 0
+    0.0057     705216     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705360      >=> FALSE
+    0.0057     705216     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705280      >=> 0
+    0.0057     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0057     705376      >=> FALSE
+    0.0058     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705296      >=> 0
+    0.0058     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705376      >=> FALSE
+    0.0058     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705296      >=> 0
+    0.0058     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705376      >=> FALSE
+    0.0058     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705296      >=> 0
+    0.0058     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705376      >=> FALSE
+    0.0058     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705296      >=> 0
+    0.0058     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0058     705376      >=> FALSE
+    0.0059     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705296      >=> 0
+    0.0059     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705376      >=> FALSE
+    0.0059     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705296      >=> 0
+    0.0059     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705376      >=> FALSE
+    0.0059     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705296      >=> 0
+    0.0059     705232     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705376      >=> FALSE
+    0.0059     705232     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0059     705296      >=> 0
+    0.0059     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705392      >=> FALSE
+    0.0060     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705312      >=> 0
+    0.0060     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705392      >=> FALSE
+    0.0060     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705312      >=> 0
+    0.0060     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705392      >=> FALSE
+    0.0060     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705312      >=> 0
+    0.0060     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705392      >=> FALSE
+    0.0060     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0060     705312      >=> 0
+    0.0060     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705392      >=> FALSE
+    0.0061     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705312      >=> 0
+    0.0061     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705392      >=> FALSE
+    0.0061     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705312      >=> 0
+    0.0061     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705392      >=> FALSE
+    0.0061     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705312      >=> 0
+    0.0061     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705392      >=> FALSE
+    0.0061     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0061     705312      >=> 0
+    0.0061     705248     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705392      >=> FALSE
+    0.0062     705248     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705312      >=> 0
+    0.0062     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705408      >=> FALSE
+    0.0062     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705328      >=> 0
+    0.0062     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705408      >=> FALSE
+    0.0062     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705328      >=> 0
+    0.0062     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705408      >=> FALSE
+    0.0062     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0062     705328      >=> 0
+    0.0062     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705408      >=> FALSE
+    0.0063     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705328      >=> 0
+    0.0063     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705408      >=> FALSE
+    0.0063     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705328      >=> 0
+    0.0063     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705408      >=> FALSE
+    0.0063     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705328      >=> 0
+    0.0063     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705440      >=> FALSE
+    0.0063     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0063     705360      >=> 0
+    0.0063     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705440      >=> FALSE
+    0.0064     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705360      >=> 0
+    0.0064     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705440      >=> FALSE
+    0.0064     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705360      >=> 0
+    0.0064     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705440      >=> FALSE
+    0.0064     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705360      >=> 0
+    0.0064     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705440      >=> FALSE
+    0.0064     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0064     705360      >=> 0
+    0.0064     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705440      >=> FALSE
+    0.0065     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705360      >=> 0
+    0.0065     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705440      >=> FALSE
+    0.0065     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705360      >=> 0
+    0.0065     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705440      >=> FALSE
+    0.0065     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705360      >=> 0
+    0.0065     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705440      >=> FALSE
+    0.0065     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0065     705360      >=> 0
+    0.0065     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705440      >=> FALSE
+    0.0066     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705360      >=> 0
+    0.0066     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705440      >=> FALSE
+    0.0066     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705360      >=> 0
+    0.0066     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705440      >=> FALSE
+    0.0066     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705360      >=> 0
+    0.0066     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705440      >=> FALSE
+    0.0066     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0066     705360      >=> 0
+    0.0066     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705440      >=> FALSE
+    0.0067     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705360      >=> 0
+    0.0067     705296     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705440      >=> FALSE
+    0.0067     705296     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705360      >=> 0
+    0.0067     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705472      >=> FALSE
+    0.0067     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705392      >=> 0
+    0.0067     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705472      >=> FALSE
+    0.0067     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0067     705392      >=> 0
+    0.0067     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705472      >=> FALSE
+    0.0068     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705392      >=> 0
+    0.0068     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705472      >=> FALSE
+    0.0068     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705392      >=> 0
+    0.0068     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705472      >=> FALSE
+    0.0068     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705392      >=> 0
+    0.0068     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705472      >=> FALSE
+    0.0068     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0068     705392      >=> 0
+    0.0068     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705472      >=> FALSE
+    0.0069     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705392      >=> 0
+    0.0069     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705472      >=> FALSE
+    0.0069     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705392      >=> 0
+    0.0069     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705472      >=> FALSE
+    0.0069     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705392      >=> 0
+    0.0069     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705472      >=> FALSE
+    0.0069     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0069     705392      >=> 0
+    0.0069     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705472      >=> FALSE
+    0.0070     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705392      >=> 0
+    0.0070     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705472      >=> FALSE
+    0.0070     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705392      >=> 0
+    0.0070     705328     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705472      >=> FALSE
+    0.0070     705328     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705392      >=> 0
+    0.0070     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705504      >=> FALSE
+    0.0070     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0070     705424      >=> 0
+    0.0070     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705504      >=> FALSE
+    0.0071     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705424      >=> 0
+    0.0071     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705504      >=> FALSE
+    0.0071     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705424      >=> 0
+    0.0071     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705504      >=> FALSE
+    0.0071     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705424      >=> 0
+    0.0071     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705504      >=> FALSE
+    0.0071     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0071     705424      >=> 0
+    0.0071     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705504      >=> FALSE
+    0.0072     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705424      >=> 0
+    0.0072     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705504      >=> FALSE
+    0.0072     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705424      >=> 0
+    0.0072     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705504      >=> FALSE
+    0.0072     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705424      >=> 0
+    0.0072     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705504      >=> FALSE
+    0.0072     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0072     705424      >=> 0
+    0.0072     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705504      >=> FALSE
+    0.0073     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705424      >=> 0
+    0.0073     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705504      >=> FALSE
+    0.0073     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705424      >=> 0
+    0.0073     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705504      >=> FALSE
+    0.0073     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705424      >=> 0
+    0.0073     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705504      >=> FALSE
+    0.0073     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0073     705424      >=> 0
+    0.0073     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705504      >=> FALSE
+    0.0074     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705424      >=> 0
+    0.0074     705360     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705504      >=> FALSE
+    0.0074     705360     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705424      >=> 0
+    0.0074     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705536      >=> FALSE
+    0.0074     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705456      >=> 0
+    0.0074     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705536      >=> FALSE
+    0.0074     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0074     705456      >=> 0
+    0.0074     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705536      >=> FALSE
+    0.0075     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705456      >=> 0
+    0.0075     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705536      >=> FALSE
+    0.0075     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705456      >=> 0
+    0.0075     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705536      >=> FALSE
+    0.0075     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705456      >=> 0
+    0.0075     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705536      >=> FALSE
+    0.0075     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0075     705456      >=> 0
+    0.0075     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705536      >=> FALSE
+    0.0076     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705456      >=> 0
+    0.0076     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705536      >=> FALSE
+    0.0076     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705456      >=> 0
+    0.0076     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705536      >=> FALSE
+    0.0076     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705456      >=> 0
+    0.0076     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705536      >=> FALSE
+    0.0076     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0076     705456      >=> 0
+    0.0076     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705536      >=> FALSE
+    0.0077     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705456      >=> 0
+    0.0077     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705536      >=> FALSE
+    0.0077     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705456      >=> 0
+    0.0077     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705536      >=> FALSE
+    0.0077     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705456      >=> 0
+    0.0077     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705536      >=> FALSE
+    0.0077     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0077     705456      >=> 0
+    0.0077     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705536      >=> FALSE
+    0.0078     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705456      >=> 0
+    0.0078     705392     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705536      >=> FALSE
+    0.0078     705392     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705456      >=> 0
+    0.0078     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705600      >=> FALSE
+    0.0078     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705520      >=> 0
+    0.0078     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705600      >=> FALSE
+    0.0078     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0078     705520      >=> 0
+    0.0079     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705600      >=> FALSE
+    0.0079     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705520      >=> 0
+    0.0079     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705600      >=> FALSE
+    0.0079     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705520      >=> 0
+    0.0079     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705600      >=> FALSE
+    0.0079     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705520      >=> 0
+    0.0079     705456     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705600      >=> FALSE
+    0.0079     705456     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0079     705520      >=> 0
+    0.0080     705456     -> base64_decode($string = '1dTBDYAgDAXQe6fgaC8O4DDdfwyhVGmhbaKe/BfQfF8gAQFKz8aRh0JEJY0qIIenINTBEY3qNNVUAfuXzIGitJVqpiBa4yp2U8ZKtKmANzewbaqG2lrAGbNWslOvgD52lULNLfgY9ZiZtdxCsLJ3+Q/2RVuOxji0jyl9aJfrZLJzxhgtS65TWS66wdr7fYzRFtvc/wU9Wpn6BQGc') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0080     705840      >=> 'ÕÔÁ\r€ \f\005Ð{§àh/\016à0Ý\f¡Ti¡m¢žü\027Ð|_ \001\001JÏÆ‘‡BD%* ‡§ ÔÁ\021ê4ÕT\001û—Ì¢´•j¦ Zã*vSÆJ´©€77°mª†ÚZÀ\031³V²S¯€>v•BÍ-ø\030õ˜™µÜB°²wù\017öE[ŽÆ8´)}h—ëd²sÆ\030-K®SY.ºÁÚû}ŒÑ\026ÛÜÿ\005=Z™ú\005\001œ'
+    0.0080     705456     -> gzinflate($data = 'ÕÔÁ\r€ \f\005Ð{§àh/\016à0Ý\f¡Ti¡m¢žü\027Ð|_ \001\001JÏÆ‘‡BD%* ‡§ ÔÁ\021ê4ÕT\001û—Ì¢´•j¦ Zã*vSÆJ´©€77°mª†ÚZÀ\031³V²S¯€>v•BÍ-ø\030õ˜™µÜB°²wù\017öE[ŽÆ8´)}h—ëd²sÆ\030-K®SY.ºÁÚû}ŒÑ\026ÛÜÿ\005=Z™ú\005\001œ') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0080     707056      >=> '\n\n       ((((((        ^^^                              ^^^        ))))))     \n     ((::::::(      ^:::^                            ^:::^      )::::::))   \n   ((:::::::(      ^:::::^                          ^:::::^      ):::::::)) \n  (:::::::((      ^:::::::^                        ^:::::::^      )):::::::)\n  (::::::(       ^:::::::::^                      ^:::::::::^       )::::::)\n  (:::::(       ^:::::^:::::^                    ^:::::^:::::^       ):::::)\n  (:::::(      ^:::::^ ^:::::^                  '...
+    0.0080     706672     -> printf($format = '\n\n       ((((((        ^^^                              ^^^        ))))))     \n     ((::::::(      ^:::^                            ^:::^      )::::::))   \n   ((:::::::(      ^:::::^                          ^:::::^      ):::::::)) \n  (:::::::((      ^:::::::^                        ^:::::::^      )):::::::)\n  (::::::(       ^:::::::::^                      ^:::::::::^       )::::::)\n  (:::::(       ^:::::^:::::^                    ^:::::^:::::^       ):::::)\n  (:::::(      ^:::::^ ^:::::^                  '...) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0081     706864      >=> 1236
+    0.0081     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0081     705344      >=> FALSE
+    0.0081     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0081     705264      >=> 0
+    0.0082     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0082     705408      >=> FALSE
+    0.0082     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0082     705328      >=> 0
+    0.0082     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0082     705344      >=> FALSE
+    0.0082     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0082     705264      >=> 0
+    0.0082     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0083     705344      >=> FALSE
+    0.0083     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0083     705264      >=> 0
+    0.0083     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0083     705408      >=> FALSE
+    0.0083     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0083     705328      >=> 0
+    0.0083     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0083     705408      >=> FALSE
+    0.0084     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0084     705328      >=> 0
+    0.0084     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0084     705344      >=> FALSE
+    0.0084     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0084     705264      >=> 0
+    0.0084     705200     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0085     705344      >=> FALSE
+    0.0085     705200     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0085     705264      >=> 0
+    0.0085     705264     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0086     705408      >=> FALSE
+    0.0086     705264     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    0.0086     705328      >=> 0
+    0.0086     705264     -> readline($prompt = 'Flag: ') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4831     705392      >=> 'nyanya'
+    1.4831     705264     -> define($constant_name = 'F', $value = 'nyanya') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4832     705456      >=> TRUE
+    1.4832     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4832     705520      >=> FALSE
+    1.4832     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4832     705440      >=> 0
+    1.4832     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4833     705520      >=> FALSE
+    1.4833     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4833     705440      >=> 0
+    1.4833     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4833     705584      >=> FALSE
+    1.4833     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4833     705504      >=> 0
+    1.4833     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4834     705520      >=> FALSE
+    1.4834     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4834     705440      >=> 0
+    1.4834     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4834     705584      >=> FALSE
+    1.4834     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4834     705504      >=> 0
+    1.4834     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4835     705584      >=> FALSE
+    1.4835     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4835     705504      >=> 0
+    1.4835     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4835     705520      >=> FALSE
+    1.4835     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4835     705440      >=> 0
+    1.4835     705376     -> constant($name = 'F') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4836     705440      >=> 'nyanya'
+    1.4836     705376     -> strlen($string = 'nyanya') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4836     705440      >=> 6
+    1.4836     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4836     705520      >=> FALSE
+    1.4836     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4836     705440      >=> 0
+    1.4836     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4836     705520      >=> FALSE
+    1.4837     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4837     705440      >=> 0
+    1.4837     705440     -> strcmp($string1 = 6, $string2 = '41') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4837     705568      >=> 2
+    1.4837     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4837     705520      >=> FALSE
+    1.4837     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4837     705440      >=> 0
+    1.4838     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4838     705584      >=> FALSE
+    1.4838     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4838     705504      >=> 0
+    1.4838     705376     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4838     705520      >=> FALSE
+    1.4838     705376     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4838     705440      >=> 0
+    1.4839     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4839     705584      >=> FALSE
+    1.4839     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4839     705504      >=> 0
+    1.4839     705440     -> strstr($haystack = '', $needle = '.') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4839     705584      >=> FALSE
+    1.4839     705440     -> abs($num = FALSE) /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4839     705504      >=> 0
+    1.4840     705440     -> printf($format = 'Nope!\n') /home/jade/dev/ctf/crewctf/ohphp/chall.php:2
+    1.4841     705568      >=> 6
+    1.4842     126880
+TRACE END   [2023-07-09 03:54:24.303554]
+
